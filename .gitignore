@@ -1,0 +1,160 @@
+
+# Cache directories
+.claude/
+
+# Task and Phase Files
+*.md
+
+# Python
+__pycache__/
+*.py
+!preprocess_wlasl_videos.py
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# PyTorch
+*.pth
+*.pt
+checkpoints/
+*.pkl
+
+# Model files
+*.model
+*.h5
+*.hdf5
+*.pb
+*.onnx
+*.tflite
+*.safetensors
+
+# Dataset directories (DO NOT COMMIT)
+asl_alphabet/
+WLASL_100/
+WLASL_100_frames/
+data/
+raw_custom/
+custom_test_set/
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.temp
+tmp/
+temp/
+
+# Figures and outputs
+figs/
+*.png
+*.jpg
+*.jpeg
+*.gif
+# *.pdf
+*.svg
+*.eps
+
+# Configuration files with secrets
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Miscellaneous
+*.backup
+*.bak
+*.orig
+.noseids
+.coverage
+.coverage.*
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# VS Code
+.vscode/
+
+# MacOS
+.DS_Store
+
+# LaTeX build artifacts
+*.aux
+*.out
+*.toc
+*.lof
+*.lot
+*.bbl
+*.blg
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.nav
+*.snm
+*.vrb
+*.idx
+*.ind
+*.ilg
+*.log
+*.lof
+*.lot
+*.toc
+*.acr
+*.glg
+*.glo
+*.gls
+*.ist
+*.thm
+*.bib
+*.swp
+*.swn
