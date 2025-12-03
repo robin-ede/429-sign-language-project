@@ -4,6 +4,7 @@
 
 # Task and Phase Files
 *.md
+!README.md
 
 # Python
 __pycache__/
